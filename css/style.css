@@ -101,7 +101,7 @@ body {
 }
 
 .home-content h1 {
-    font-size: 50px;
+    font-size: 35px;
     color: #1743e3;
     line-height: 1.2;
     opacity: 0;
@@ -279,5 +279,3 @@ body {
         opacity: 1;
     }
 }
-
-
