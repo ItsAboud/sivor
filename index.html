@@ -3,48 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="./imges/Profile.icon" type="">
+
+    <title>Portfolio Website | sL Code Hub</title>
+
 </head>
 
 <body>
-    
     <header class="header">
         <a href="#" class="logo">Sivor</a>
-
+        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="#" style="--i:1;" class="active"> <i class='bx bxs-home'></i> Home</a>
-            <a href="about.html" style="--i:2;"><i class='bx bxs-id-card'></i> About</a>
-            <a href="Achievements.html" style="--i:3;"><i class='bx bxs-check-square' ></i> Achievements</a>
-            <a href="https://codepalette.site/submit.php" style="--i:4;"><i class='bx bx-edit' ></i> Submit</a>
-            <a href="news.html" style="--i:5;"><i class='bx bxs-news'></i> News</a>
+            <a href="#" id="#home" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Achievements</a>
+            <a href="#">Submit</a>
+            <a href="#">News</a>
         </nav>
-        <div class="social-media">
-            <a href="https://www.instagram.com/_codepalette/" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="https://discord.gg/GskaByz4Hw" style="--i:2;"><i class='bx bxl-discord-alt' ></i></a>
-            <a href="https://www.paypal.com/paypalme/AboodHammoud?country.x=SA&locale.x=en_US" style="--i:3;"><i class='bx bxl-paypal' ></i></a>
-        </div>
     </header>
 
-    <section class="home">
+     <!-- home -->
+      <section class="home" id="home">
         <div class="home-content">
-            <h1>Welcome to</h1>
-            <h3>Sivor team specializes in programming electronic games in the Arab world, developing Arab programming skills and contributing to technical projects, in addition to designing and programming websites to achieve the most professional quality possible and smooth dealing.</h3>
-            <a href="https://discord.gg/GskaByz4Hw" class="btn">Join the sivor community now</a>
-        </div>
-
-        <div class="home-img">
-            <div class="rhombus">
-                <img src="./imges/Banner 2.png" alt="">
+            <h3><span>Welcome to</span></h3>
+            <h1>Sivor team specializes in programming electronic games in the Arab world, developing Arab programming skills <br> and contributing to technical projects, in addition to designing <br> and programming websites to achieve the most professional quality possible and smooth dealing.</h1>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href=""><i class='bx bxl-discord-alt' ></i></a>
+                <a href=""><i class='bx bxl-paypal' ></i></a>
             </div>
+            <a href="#" class="btn">Join the sivor community now</a>
         </div>
-        <div class="rhomsbus2"></div>
-    </section>
+        <div class="home-img">
+            <img src="./img/Profile.png">
+        </div>
+      </section>
 
+      <!-- footer -->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Sivor <span class="spam2">team</span>  |  All Right Reserverd</p>
+        </div>
+       </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
