@@ -3,48 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> News</title>
+    <!-- style.css -->
     <link rel="stylesheet" href="./css/news.css">
+    <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="./imges/Profile.icon" type="">
+
+    <title>News</title>
+    <link rel="shortcut icon" href="./img/Profile.icon" type="">
 </head>
 
 <body>
-    
     <header class="header">
         <a href="#" class="logo">Sivor</a>
-
+        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="index.html" style="--i:1;" class="active"><i class='bx bxs-home'></i> Home</a>
-            <a href="about.html" style="--i:2;"><i class='bx bxs-id-card'></i> About</a>
-            <a href="Achievements.html" style="--i:3;" class="active2"><i class='bx bxs-check-square' ></i> Achievements</a>
-            <a href="https://codepalette.site/submit.php" style="--i:4;"><i class='bx bx-edit' ></i> Submit</a>
-            <a href="#" style="--i:5;" class="active3"><i class='bx bxs-news'></i> News</a>
+            <a href="index.html" id="#home" class="active"><i class='bx bxs-home'></i> Home</a>
+            <a href="about.html" class="active1"><i class='bx bxs-id-card'></i> About</a>
+            <a href="Achievements.html" class="active2"><i class='bx bxs-check-square' ></i> Achievements</a>
+            <a href="https://codepalette.site/submit.php"><i class='bx bx-edit' ></i> Submit</a>
+            <a href="news.html" class="active3"><i class='bx bxs-news'></i> News</a>
         </nav>
-        <div class="social-media">
-            <a href="https://www.instagram.com/_codepalette/" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="https://discord.gg/GskaByz4Hw" style="--i:2;"><i class='bx bxl-discord-alt' ></i></a>
-            <a href="https://www.paypal.com/paypalme/AboodHammoud?country.x=SA&locale.x=en_US" style="--i:3;"><i class='bx bxl-paypal' ></i></a>
-        </div>
     </header>
 
-    <section class="home">
+     <!-- home -->
+      <section class="home" id="home">
         <div class="home-content">
-            <h1>Sivor News</h1>
-            <h3>The Sivor team has cooperated with the Rioga team on a charitable work with a special pen for blind people that helps them receive sound and write 
-                Or printing.</h3>
+            <h3><span>Sivor News</span></h3>
+            <h1>The Sivor team has cooperated with the Rioga team on a charitable work with a special pen for blind people that helps them receive sound and write 
+                Or printing.</h1>
+        
         </div>
-
         <div class="home-img">
-            <div class="rhombus">
-                <img src="./imges/news.svg" alt="">
-            </div>
+            <img src="./img/news.svg">
         </div>
-        <div class="rhomsbus2"></div>
-    </section>
+      </section>
+      <!-- footer -->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Sivor <span class="spam2">team</span>  |  All Right Reserverd</p>
+        </div>
+       </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

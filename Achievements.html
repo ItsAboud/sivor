@@ -3,118 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Achievements</title>
+    <!-- style.css -->
     <link rel="stylesheet" href="./css/Achievements.css">
+    <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="./imges/Profile.icon" type="">
+
+    <title>Achievements</title>
+    <link rel="shortcut icon" href="./img/Profile.icon" type="">
 </head>
 
 <body>
-    
     <header class="header">
         <a href="#" class="logo">Sivor</a>
-
+        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="index.html" style="--i:1;" class="active"><i class='bx bxs-home'></i> Home</a>
-            <a href="about.html" style="--i:2;"><i class='bx bxs-id-card'></i> About</a>
-            <a href="#" style="--i:3;" class="active2"><i class='bx bxs-check-square' ></i> Achievements</a>
-            <a href="https://codepalette.site/submit.php" style="--i:4;"><i class='bx bx-edit' ></i> Submit</a>
-            <a href="news.html" style="--i:5;"><i class='bx bxs-news'></i> News</a>
+            <a href="index.html" id="#home" class="active"><i class='bx bxs-home'></i> Home</a>
+            <a href="about.html" class="active1"><i class='bx bxs-id-card'></i> About</a>
+            <a href="Achievements.html" class="active2"><i class='bx bxs-check-square' ></i> Achievements</a>
+            <a href="https://codepalette.site/submit.php"><i class='bx bx-edit' ></i> Submit</a>
+            <a href="news.html" class="active3"><i class='bx bxs-news'></i> News</a>
         </nav>
-        <div class="social-media">
-            <a href="https://www.instagram.com/_codepalette/" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="https://discord.gg/GskaByz4Hw" style="--i:2;"><i class='bx bxl-discord-alt' ></i></a>
-            <a href="https://www.paypal.com/paypalme/AboodHammoud?country.x=SA&locale.x=en_US" style="--i:3;"><i class='bx bxl-paypal' ></i></a>
-        </div>
     </header>
 
-    <section class="home">
+     <!-- home -->
+      <section class="home" id="home">
         <div class="home-content">
-            <h1>Sivor Achievements</h1>
-            <h3>The Silver team has completed many projects<br>
+            <h3><span>Sivor Achievements</span></h3>
+            <h1>The Silver team has completed many projects<br>
                 <br>Example:<br>
                 1- codepalette platform<br>
                2- fox game(pc)<br>
                 3- The Drifter game(Google)<br>
                 4- The Drifter game(Ios)<br>
                 <br>
-                Now we are working on several huge projects, such as games and other things.</h3>
+                Now we are working on several huge projects, such as games and other things.</h1>
         </div>
-
         <div class="home-img">
-            <div class="rhombus">
-                <img src="./imges/Achievements1.png" alt="">
-            </div>
+            <img src="./img/Achievements1.png">
         </div>
-        <div class="rhomsbus2"></div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section class="cards" id="services">
-        <h2 class="title">Achievements Links</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-edit"></i>
-                </div>
-                <div class="info">
-                    <a href="https://codepalette.site"><h3>CodePalette</h3></a>
-                    <p>Research and write scripts for different topics that can then be directly recorded for video production</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-video"></i>
-                </div>
-                <div class="info">
-                    <a href="https://www.mediafire.com/file/qkuhth8im5irrv2/Fox.rar/file"><h3>fox game(pc)</h3></a>
-                    <p>Fox is a game similar to Mario, especially on PC</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <div class="info">
-                    <a href="https://play.google.com/store/apps/details?id=com.MOGO.infinitydrift"><h3>The Drifter game(Google)</h3></a>
-                    <p>The Drifter game, which is a car game that requires all the money and then buys cars and can drive around in cars</p>
-                </div>
-            </div>
+      </section>
+      <!-- footer -->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Sivor <span class="spam2">team</span>  |  All Right Reserverd</p>
         </div>
-    </section>
-    <section class="cards" id="services">
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-edit"></i>
-                </div>
-                <div class="info">
-                    <a href="https://apps.apple.com/sa/app/the-drifter/id6465689430"><h3>The Drifter game(Ios)</h3></a>
-                    <p>The Drifter game, which is a car game that requires all the money and then buys cars and can drive around in cars</p>
-                </div>
-            </div>
-            
-    </section>
+       </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
